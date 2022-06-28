@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    
+  <head id="game-title">
+    <meta charset="utf-8">
+    <title>Find the Alien</title>
+    <link rel="stylesheet" href="alien.css">
+   <link rel="icon" type="image/x-icon" href="https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80">
+ </head>
+ <body>
+   <div id="game-name">
+     <h1>Find the Alien</h1>
+ </div>
+ <div id="rule-box">
+   <h2>Rules:</h2>
+   <ul>
+     <li>Rule 1: Click the boxes to reveal what’s in space</li>
+     <li>Rule 2: If you click on the raygun, you lose</li>
+     <li>Rule 3: If you click on the alien, you win</li>
+   </ul>
+ </div>
+   <img width="300px" src="https://freesvg.org/img/laurent_little_green_alien.png"/>
+
+   <table id= "game">
+     <tr>
+       <td id="0" onclick="treasure(0)">x</td>
+        <td id="1" onclick="treasure(1)">x</td>
+        <td id="2" onclick="treasure(2)">x</td>
+        <td id="3" onclick="treasure(3)">x</td>
+        <td id="4" onclick="treasure(4)">x</td>
+     </tr>
+     <tr>
+        <td id="5" onclick="treasure(5)">x</td>
+        <td id="6" onclick="treasure(6)">x</td>
+        <td id="7" onclick="treasure(7)">x</td>
+        <td id="8" onclick="treasure(8)">x</td>
+        <td id="9" onclick="treasure(9)">x</td>
+     </tr>
+     <tr>
+        <td id="10" onclick="treasure(10)">x</td>
+        <td id="11" onclick="treasure(11)">x</td>
+        <td id="12" onclick="treasure(12)">x</td>
+        <td id="13" onclick="treasure(13)">x</td>
+        <td id="14" onclick="treasure(14)">x</td>
+     </tr>
+     <tr>
+        <td id="15" onclick="treasure(15)">x</td>
+        <td id="16" onclick="treasure(16)">x</td>
+        <td id="17" onclick="treasure(17)">x</td>
+        <td id="18" onclick="treasure(18)">x</td>
+        <td id="19" onclick="treasure(19)">x</td>
+
+     </tr>
+     <tr>
+        <td id="20" onclick="treasure(20)">x</td>
+        <td id="21" onclick="treasure(21)">x</td>
+        <td id="22" onclick="treasure(22)">x</td>
+        <td id="23" onclick="treasure(23)">x</td>
+        <td id="24" onclick="treasure(24)">x</td>
+     </tr>
+   </table>
+
+   <button type="button" onclick="location.reload()">Restart</button>
+
+   <footer>
+     <script type="text/javascript" src="alien.js"></script>
+      Namier<br/>
+     <a href="https://namieralsabagh.github.io">External Website</a>
+
+   </footer>
